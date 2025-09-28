@@ -5,14 +5,11 @@
   PrimaryAsset: !<reference> b69e19ca-5a74-4540-884b-9b52addd4b50
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
-  ExtraData:
-    {}
+  ExtraData: {}
   AssetDataMap:
     TypeScriptAsset: !<own> 474b993b-d4a0-4dbb-b52e-1664ebb2091c
-  DependentFiles:
-    []
-  ImporterSettings: !<AssetImporterSettings>
-    {}
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/474b993b-d4a0-4dbb-b52e-1664ebb2091c>
   SvgIcon: ""
@@ -24,8 +21,6 @@
   VersionPatch: 0
   ComponentUid: f2909a08-aed9-4f3d-be9c-3b898e8822b6
   ExportUid: 00000000-0000-0000-0000-000000000000
-  CurrentVisibility: Editable
-  MaxVisibility: Editable
   ScriptInputsHidden:
     mapComponent: false
     maxFollowDistance: false
@@ -34,8 +29,7 @@
     translationXTime: false
     translationYTime: false
     translationZTime: false
-  ScriptTypesHidden:
-    {}
+  ScriptTypesHidden: {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
@@ -47,8 +41,7 @@
       minFollowDistance: !<float> 25.000000
       maxFollowDistance: !<float> 250.000000
   ScriptTypes:
-    -
-      {}
+    - {}
   InputLines:
     - // @input AssignableType mapComponent
     - // @input float translationXTime = 1

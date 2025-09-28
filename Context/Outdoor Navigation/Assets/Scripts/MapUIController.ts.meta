@@ -5,14 +5,11 @@
   PrimaryAsset: !<reference> 4ef9d74a-a300-41c0-bd2d-e67ba89d8fe5
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
-  ExtraData:
-    {}
+  ExtraData: {}
   AssetDataMap:
     TypeScriptAsset: !<own> e13154ba-eb6a-4139-ab6b-0671a59779d6
-  DependentFiles:
-    []
-  ImporterSettings: !<AssetImporterSettings>
-    {}
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/e13154ba-eb6a-4139-ab6b-0671a59779d6>
   SvgIcon: ""
@@ -24,8 +21,6 @@
   VersionPatch: 0
   ComponentUid: 80178d1d-3ae1-45e3-966f-0a7d51774425
   ExportUid: 00000000-0000-0000-0000-000000000000
-  CurrentVisibility: Editable
-  MaxVisibility: Editable
   ScriptInputsHidden:
     centerMapButton: false
     clearPinsButton: false
@@ -38,8 +33,7 @@
     toggleMiniMapButton: false
     zoomInButton: false
     zoomOutButton: false
-  ScriptTypesHidden:
-    {}
+  ScriptTypesHidden: {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
@@ -55,8 +49,7 @@
       showBarsButton: !<MappingBased.AssignableType_9> 00000000-0000-0000-0000-000000000000
       logObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    -
-      {}
+    - {}
   InputLines:
     - // @input AssignableType mapComponent
     - // @input AssignableType_1 spawnPinButton

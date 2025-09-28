@@ -5,14 +5,11 @@
   PrimaryAsset: !<reference> ab4e40a5-3f1e-40c8-988e-939ff93b9c59
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
-  ExtraData:
-    {}
+  ExtraData: {}
   AssetDataMap:
     TypeScriptAsset: !<own> 011a1ce9-8b91-4317-b901-5152d5e1401e
-  DependentFiles:
-    []
-  ImporterSettings: !<AssetImporterSettings>
-    {}
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/011a1ce9-8b91-4317-b901-5152d5e1401e>
   SvgIcon: ""
@@ -24,21 +21,17 @@
   VersionPatch: 0
   ComponentUid: a985f63d-3327-4a1b-8437-4fc4067b1128
   ExportUid: 00000000-0000-0000-0000-000000000000
-  CurrentVisibility: Editable
-  MaxVisibility: Editable
   ScriptInputsHidden:
     logLimit: false
     loggerOutput: false
-  ScriptTypesHidden:
-    {}
+  ScriptTypesHidden: {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - logLimit: !<float> 10.000000
       loggerOutput: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    -
-      {}
+    - {}
   InputLines:
     - // @input float logLimit = 10
     - // @input Component.Text loggerOutput
